@@ -1,0 +1,14 @@
+.wrapper {
+    padding: 30px;
+    background-color: green;
+    .error {
+        background-color: red;
+        font-size: 30px;
+        &:before {
+            content: '+';
+            padding: 10px;
+            color: #fff;
+            background-color: black;
+        }
+    }
+}
